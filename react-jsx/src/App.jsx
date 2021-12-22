@@ -59,6 +59,7 @@ export function App() {
 
   return (
     <Fragment>
+      <h1>Lista de Tareas</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input ref={todoTaskRef} type="text" placeholder="Nueva tarea" />
       <button onClick={handleTodoAdd}>Añadir</button>
