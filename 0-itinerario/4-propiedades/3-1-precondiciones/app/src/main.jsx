@@ -11,4 +11,3 @@ ReactDOM.createRoot(
         <Table />
       </StrictMode>
     );
-

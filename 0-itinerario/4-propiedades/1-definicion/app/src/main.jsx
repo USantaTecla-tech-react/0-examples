@@ -8,7 +8,6 @@ ReactDOM.createRoot(
   document.getElementById('root'))
     .render(
       <StrictMode>
-        <Table />
+        <Table title="React Course" />
       </StrictMode>
     );
-
