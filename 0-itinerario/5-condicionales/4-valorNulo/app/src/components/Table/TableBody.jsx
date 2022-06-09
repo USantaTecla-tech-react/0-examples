@@ -1,8 +1,9 @@
 import TableRow from "./TableRow";
 
 const TableBody = ({ rows }) => {
-  if(!rows) { return null; }
-
+  if(!rows) { 
+    return null; 
+  }
   return <tbody>
     { 
       rows.map(row => 
